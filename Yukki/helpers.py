@@ -118,13 +118,10 @@ HELP_TEXT = f"""■ Hᴇʏ Gᴜʏs,
 ◆ **𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴 𝘍𝘰𝘳 𝘚𝘦𝘵𝘵𝘪𝘯𝘨𝘴 :- **
 
 /settings - [ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀɴɢɪɴɢ sᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs ᴏғ Aғᴋ Bᴏᴛ ( Oɴʟʏ Usᴇ Iɴ Gʀᴏᴜᴘs) ]
+
+★ Oᴇɢᴀʀᴅs ~ [Vɪʀ](https://t.me/ITZVIR99) 
+
 """
-buttons = [
-    [
-        InlineKeyboardButton(text="ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/ITZVIR99"),
-        ],
-    ]
-                        
             
 def settings_markup(status: Union[bool, str] = None):
     buttons = [
