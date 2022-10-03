@@ -86,7 +86,8 @@ RANDOM = [
     "https://telegra.ph/file/12549f809c7533e6c4197.jpg",
     "https://telegra.ph/file/a8cf5423ea950d28998c0.jpg",
     "https://telegra.ph/file/144551776656b05682d42.jpg",
-    "https://telegra.ph/file/a2ea5c6d1099be896d79f.jpg"
+    "https://telegra.ph/file/a2ea5c6d1099be896d79f.jpg", 
+    "https://telegra.ph/file/c82d6bf6f5356d6446644.jpg"
 ]
 
 
