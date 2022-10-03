@@ -106,7 +106,7 @@ async def on_cleanmode_change(client, CallbackQuery):
     if admin.status in ["creator", "administrator"]:
         pass
     else:
-        return await CallbackQuery.answer("Oɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴅᴏ ᴛʜᴇsᴇ ᴀᴄᴛɪᴏɴs", show_alert=True)
+        return await CallbackQuery.answer("Oɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴅᴏ ᴛʜᴇsᴇ ᴀᴄᴛɪᴏɴs.", show_alert=True)
     await CallbackQuery.answer()
     status = None
     if await is_cleanmode_on(CallbackQuery.message.chat.id):
