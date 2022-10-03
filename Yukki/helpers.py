@@ -119,7 +119,7 @@ HELP_TEXT = f"""■ Hᴇʏ Gᴜʏs,
 
 /settings - [ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀɴɢɪɴɢ sᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs ᴏғ Aғᴋ Bᴏᴛ ( Oɴʟʏ Usᴇ Iɴ Gʀᴏᴜᴘs) ]
 """
-upl = InlineKeyboardMarkup(
+upl = InlineKeyboardButton(
             [
                 [
                     InlineKeyboardButton(
