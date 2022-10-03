@@ -119,7 +119,7 @@ HELP_TEXT = f"""■ Hᴇʏ Gᴜʏs,
 
 /settings - [ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀɴɢɪɴɢ sᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs ᴏғ Aғᴋ Bᴏᴛ ( Oɴʟʏ Usᴇ Iɴ Gʀᴏᴜᴘs) ]
 
-★ Oᴇɢᴀʀᴅs ~ [Vɪʀ](https://t.me/ITZVIR99) 
+★ Rᴇɢᴀʀᴅs ~ [Vɪʀ](https://t.me/ITZVIR99). 
 
 """
             
