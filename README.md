@@ -1,12 +1,12 @@
-<p align="center"><a href="https://t.me/ITZVIR99"><img src="https://telegra.ph/file/52e152c4f036384c84ae1.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/ITZVIR99"><img src="https://telegra.ph/file/52e152c4f036384c84ae1.jpg" width="500"></a></p>
 
 <h4 align="center">
     First ever pyrogram based public sourced AFK Bot on Telegram and Github.
 </h4>
 <p align="center">
-    <a href="https://t.me/YukkiAFKBot"> Ready-To-Use Bot </a> •
-    <a href="https://t.me/TheYukki"> Support Channel </a> •
-    <a href="https://t.me/YukkiSupport"> Support Chat </a> 
+    <a href="https://t.me/TheAfkRobot"> Ready-To-Use Bot </a> •
+    <a href="https://t.me/Asadsupport"> Support Channel </a> •
+    <a href="https://t.me/Rocks_official"> Powerful Network </a> 
 </p>
     
 
