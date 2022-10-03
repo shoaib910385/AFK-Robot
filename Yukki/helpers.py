@@ -91,21 +91,7 @@ RANDOM = [
 ]
 
 
-HELP_TEXT = f"""Welcome to {botname}'s Help Section.
-
-- When someone mentions you in a chat, the user will be notified you are AFK. You can even provide a reason for going AFK, which will be provided to the user as well.
-
-
-/afk - This will set you offline.
-
-/afk [Reason] - This will set you offline with a reason.
-
-/afk [Replied to a Sticker/Photo] - This will set you offline with an image or sticker.
-
-/afk [Replied to a Sticker/Photo] [Reason] - This will set you afk with an image and reason both.
-
-
-/settings - To change or edit basic settings of AFK Bot.
+HELP_TEXT = f"""■ Hᴇʏ Gᴜʏs,\n\n※ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ᴏғ {}.\n\n※ Tʜɪs ʙᴏᴛ ᴘʀᴏᴠɪᴅᴇs sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇ...\n\n\n☆ Tʜᴀᴛ ɪs ɪғ ʏᴏᴜ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴏ ɪғ ʏᴏᴜ ɢᴏɴᴇ ᴀғᴋ ᴀғᴛᴇʀ ᴛᴇʟʟɪɴɢ ᴛʜɪs ʙᴏᴛ ʙʏ ᴄᴏᴍᴍᴀɴᴅs 😉.\n\n☆ Oᴛʜᴇʀ ᴘᴇʀsᴏɴ ᴡʜᴏ ᴛᴀɢɢɪɴɢ ʏᴏᴜ ᴡɪʟʟ ᴀʙʟᴇ ᴛᴏ ᴋɴᴏᴡ ᴛʜᴀᴛ ʏᴏᴜ ᴀʀᴇ ᴏғғʟɪɴᴇ & ᴀғᴋ 😉.\n\n● 𝐇𝐞𝐫𝐞 𝐈𝐬 𝐒𝐨𝐦𝐞 𝐔𝐬𝐞𝐟𝐮𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 🥶\n\n◆ 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴 𝘍𝘰𝘳 𝘈𝘍𝘒 :- \n\n/afk - [ Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ sᴇᴛ ʏᴏᴜ ᴏғғʟɪɴᴇ. Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ɪɴ ʀᴇᴘʟʏ ᴏғ ᴀɴʏ Sᴛɪᴄᴋᴇʀ/Pʜᴏᴛᴏ/Gɪғ ]\n\n [ Yᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ʏᴏᴜʀ ᴀғᴋ ʀᴇᴀsᴏɴ ᴡɪᴛʜ ʀᴇᴘʟʏ ᴏғ Sᴛɪᴄᴋᴇʀ/Gɪғ/Pʜᴏᴛᴏ ]\n\n𝐄𝐱𝐚𝐦𝐩𝐥𝐞 :-\n \n/afk \n\n/afk Going Offline For Study\n\n◆ 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴 𝘍𝘰𝘳 𝘚𝘦𝘵𝘵𝘪𝘯𝘨𝘴 :- \n\n/settings - [ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀɴɢɪɴɢ sᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs ᴏғ Aғᴋ Bᴏᴛ ( Oɴʟʏ Usᴇ Iɴ Gʀᴏᴜᴘs) ]
 """
 
 def settings_markup(status: Union[bool, str] = None):
