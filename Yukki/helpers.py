@@ -119,28 +119,24 @@ HELP_TEXT = f"""■ Hᴇʏ Gᴜʏs,
 
 /settings - [ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀɴɢɪɴɢ sᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs ᴏғ Aғᴋ Bᴏᴛ ( Oɴʟʏ Usᴇ Iɴ Gʀᴏᴜᴘs) ]
 """
-upl = InlineKeyboardButton(
-            [
-                [
-                    InlineKeyboardButton(
-                        text="▧ Cʟɪᴄᴋ Tᴏ Aᴅᴅ Mᴇ ▨",
-                        url=f"https://t.me/ITZVIR99",
-                    ),
-                ]
-            ]
-        )
-
+buttons = [
+    [
+        InlineKeyboardButton(text="ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/ITZVIR99"),
+        ],
+    ]
+                        
+            
 def settings_markup(status: Union[bool, str] = None):
     buttons = [
         [
-            InlineKeyboardButton(text="🔄 Clean Mode", callback_data="cleanmode_answer"),
+            InlineKeyboardButton(text="↻ Cʟᴇᴀɴ Mᴏᴅᴇ ↺", callback_data="cleanmode_answer"),
             InlineKeyboardButton(
-                text="✅ Enabled" if status == True else "❌ Disabled",
+                text="✯ Eɴᴀʙʟᴇᴅ ✯" if status == True else "✕ Dɪsᴀʙʟᴇᴅ ✕",
                 callback_data="CLEANMODE",
             ),
         ],
         [
-            InlineKeyboardButton(text="🗑 Close Menu", callback_data="close"),
+            InlineKeyboardButton(text="↻ ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data="close"),
         ],
     ]
     return buttons
