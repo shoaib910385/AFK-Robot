@@ -49,7 +49,7 @@ async def on_help(_, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="📜 Help Section",
+                    text="☆ Hᴇʟᴘ ☆",
                     url=f"https://t.me/{botusername}?start=help",
                 ),
             ]
