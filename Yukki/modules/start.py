@@ -28,18 +28,18 @@ async def on_start(_, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="📜 Help Section",
+                    text="☆ Hᴇʟᴘ ☆",
                     url=f"https://t.me/{botusername}?start=help",
                 ),
                 InlineKeyboardButton(
-                    text="🔧 Settings",
+                    text="★ Sᴇᴛᴛɪɴɢs ★",
                     callback_data="settings_callback",
                 ),
             ]
         ]
     )
     image = random.choice(RANDOM)
-    send = await message.reply_photo(image, caption=f"Hello! My name is {botname}.\n\nTo know more about me check help section. Active since {Uptime}", reply_markup=upl)
+    send = await message.reply_photo(image, caption=f"Hᴇʟʟᴏ Sɪʀ/Mɪss, \n\nI Aᴍ {botname}.\n\n⪼ Iғ Yᴏᴜ Wᴀɴᴛ Tᴏ Kɴᴏᴡ Mᴏʀᴇ Aʙᴏᴜᴛ Mᴇ Cʟɪᴄᴋ > /help.\n\nMʏ Oᴡɴᴇʀ Is ~ [Vɪʀ](https://t.me/ITZVIR99).\nPᴀʀᴛ Oғ ~ [Rᴏᴄᴋs Oғғɪᴄɪᴀʟ](https://t.me/ROCKS_OFFICIAL).\n\nI Aᴍ Aᴄᴛɪᴠᴇ Sɪɴᴄᴇ : (Uptime).", reply_markup=upl)
     await put_cleanmode(message.chat.id, send.message_id)
     
 
