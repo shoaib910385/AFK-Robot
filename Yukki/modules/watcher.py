@@ -255,8 +255,8 @@ async def welcome(_, message: Message):
         try:
             if member.id == botid:
                 send =  await message.reply_text(
-                    f"Thanks for having me in {message.chat.title}\n\n{botname} is alive."
-                )
+                    f"Tʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ🌹\n {message.chat.title} \n ◍━━•━━•●●•━━•━━◍\n{botname}\n𝘉𝘖𝘛 𝘜𝘚𝘈𝘎𝘌 ⚙️\n\n○ Mᴀᴋᴇ ᴍᴇ Aᴅᴍɪɴ Fɪʀsᴛ 🖇\n\n○ /afk Yᴏᴜʀ ᴀғᴋ ʀᴇᴀsᴏɴ\n\nEɴᴊᴏʏ Aғᴋ Rᴏʙᴏᴛ 🤖 🎶\n\n ◍━━•━━•●●•━━•━━◍\n\n**Bᴏᴛ's Oᴡɴᴇʀ ☆ [Vɪʀ](https://t.me/ITZVIR99)**\n**Pᴏᴡᴇʀᴇᴅ Bʏ ☆ [Rᴏᴄᴋs](https://t.me/rocks_official)**"
+) 
                 await put_cleanmode(message.chat.id, send.message_id)
         except:
             return
