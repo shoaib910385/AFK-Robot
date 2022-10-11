@@ -255,7 +255,7 @@ async def welcome(_, message: Message):
         try:
             if member.id == botid:
                 send =  await message.reply_text(
-                    f"🧸 Tʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ 😝\n\n {message.chat.title} 🌹\n\n ◍━━•━━•●●•━━•━━◍\n\n🧸 𝘉𝘖𝘛 𝘜𝘚𝘈𝘎𝘌 ⚙️\n\n○ Mᴀᴋᴇ ᴍᴇ Aᴅᴍɪɴ Fɪʀsᴛ 🖇\n\n○ /afk Yᴏᴜʀ ᴀғᴋ ʀᴇᴀsᴏɴ\n\nEɴᴊᴏʏ Aғᴋ Rᴏʙᴏᴛ 🤖 🎶\n\n ◍━━•━━•●●•━━•━━◍\n\n  {botname}\n\n**Bᴏᴛ's Oᴡɴᴇʀ ☆ [Vɪʀ](https://t.me/ITZVIR99)**\n**Pᴏᴡᴇʀᴇᴅ Bʏ ☆ [Rᴏᴄᴋs](https://t.me/rocks_official)**\n"
+                    f"[🧸](https://telegra.ph/file/9862778047d4e4e2ad1fa.jpg) Tʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ 😝\n\n {message.chat.title} 🌹\n\n ◍━━•━━•●●•━━•━━◍\n\n🧸 𝘉𝘖𝘛 𝘜𝘚𝘈𝘎𝘌 ⚙️\n\n○ Mᴀᴋᴇ ᴍᴇ Aᴅᴍɪɴ Fɪʀsᴛ 🖇\n\n○ /afk Yᴏᴜʀ ᴀғᴋ ʀᴇᴀsᴏɴ\n\nEɴᴊᴏʏ Aғᴋ Rᴏʙᴏᴛ 🤖 🎶\n\n ◍━━•━━•●●•━━•━━◍\n\n  {botname}\n\n**Bᴏᴛ's Oᴡɴᴇʀ ☆ [Vɪʀ](https://t.me/ITZVIR99)**\n**Pᴏᴡᴇʀᴇᴅ Bʏ ☆ [Rᴏᴄᴋs](https://t.me/rocks_official)**\n"
                 ) 
 
                 await put_cleanmode(message.chat.id, send.message_id)
