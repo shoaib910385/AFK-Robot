@@ -87,11 +87,12 @@ RANDOM = [
     "https://telegra.ph/file/a8cf5423ea950d28998c0.jpg",
     "https://telegra.ph/file/144551776656b05682d42.jpg",
     "https://telegra.ph/file/a2ea5c6d1099be896d79f.jpg", 
-    "https://telegra.ph/file/c82d6bf6f5356d6446644.jpg"
+    "https://telegra.ph/file/661626d941bc44a97edf4.jpg"
 ]
 
 
-HELP_TEXT = f"""■ Hᴇʏ Gᴜʏs, 
+HELP_TEXT = f"""ㅤ[ㅤㅤㅤㅤㅤ ](https://telegra.ph/file/661626d941bc44a97edf4.jpg)ㅤㅤ
+■ Hᴇʏ Gᴜʏs, 
 
 ※ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ᴏғ « 𓆩 ᴀ ғ ᴋ »🍁« ʙ ᴏ ᴛ 𓆪 ».
 
