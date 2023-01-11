@@ -5,7 +5,7 @@
 </h4>
 <p align="center">
     <a href="https://t.me/TheAfkRobot"> Ready-To-Use Bot </a> •
-    <a href="https://t.me/Asadsupport"> Support Channel </a> •
+    <a href="https://t.me/ROCKS_ROBOTS"> Support Channel </a> •
     <a href="https://t.me/Rocks_official"> Powerful Network </a> 
 </p>
     
@@ -23,7 +23,7 @@ A Powerful Telegram AFK Bot written in pyrogram using MongoDB as database and wi
 ## 🚀 Heroku Deployment
 
 <h4>Click the button below to deploy Yukki AFK Bot on Heroku!</h4>    
-<a href="https://dashboard.heroku.com/new?template=https://github.com/TeamYukki/YukkiAFKBot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/VIR99/AFK-Robot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
 
 ## 🖇 VPS Deployment
 
