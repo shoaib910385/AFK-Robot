@@ -62,21 +62,21 @@ async def chat_watcher_func(_, message):
                 else:
                     send = await message.reply_animation(
                         data,
-                        caption=f"**{user_name[:25]}** is back online and was away for {seenago}\n\nReason: `{reasonafk}`\n\n",
+                        caption=f"**{user_name}** is back online and was away for {seenago}\n\nReason: `{reasonafk}`\n\n",
                     )
             if afktype == "photo":
                 if str(reasonafk) == "None":
                     send = await message.reply_photo(
                         photo=f"downloads/{userid}.jpg",
-                        caption=f"**{user_name[:25]}** is back online and was away for {seenago}\n\n",
+                        caption=f"**{user_name}** is back online and was away for {seenago}\n\n",
                     )
                 else:
                     send = await message.reply_photo(
                         photo=f"downloads/{userid}.jpg",
-                        caption=f"**{user_name[:25]}** is back online and was away for {seenago}\n\nReason: `{reasonafk}`\n\n",
+                        caption=f"**{user_name}** is back online and was away for {seenago}\n\nReason: `{reasonafk}`\n\n",
                     )
         except:
-            msg += f"**{user_name[:25]}** is back online\n\n"
+            msg += f"**{user_name}** is back online\n\n"
         
     # Replied to a User which is AFK
     if message.reply_to_message:
