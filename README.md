@@ -1,4 +1,4 @@
-<h1 align="center"><b>✨ ᴀғᴋ-ʀᴏʙᴏᴛ 🥀</b></h1>
+<h1 align="center"><b>✨ Aғᴋ-Rᴏʙᴏᴛ 🥀</b></h1>
 <h1 align="center">
 <img src="https://te.legra.ph/file/55d0dc4662aca5fb688d2.jpg">
 </h1>
