@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by Vir99@Github, < https://github.com/Vir99 >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiAFKBot > project,
+# This file is part of < https://github.com/Vir99/Afk-Robot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiAFKBot/blob/master/LICENSE >
+# Please see < https://github.com/Vir99/Afk-Robot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -13,9 +13,9 @@ import time
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Yukki import app, botid, botname, botusername
-from Yukki.database import add_served_chat, is_afk, remove_afk
-from Yukki.helpers import get_readable_time, put_cleanmode
+from Afk-Robot import app, botid, botname, botusername
+from Afk-Robot.database import add_served_chat, is_afk, remove_afk
+from Afk-Robot.helpers import get_readable_time, put_cleanmode
 
 chat_watcher_group = 1
 

@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by Vir99@Github, < https://github.com/Vir99 >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiAFKBot > project,
+# This file is part of < https://github.com/Vir99/Afk-Robot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiAFKBot/blob/master/LICENSE >
+# Please see < https://github.com/Vir99/Afk-Robot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -15,9 +15,9 @@ from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import MessageNotModified
 
-from Yukki import app, boot, botname, botusername
-from Yukki.database.cleanmode import cleanmode_off, cleanmode_on, is_cleanmode_on
-from Yukki.helpers import get_readable_time, put_cleanmode, settings_markup, RANDOM, HELP_TEXT
+from Afk-Robot import app, boot, botname, botusername
+from Afk-Robot.database.cleanmode import cleanmode_off, cleanmode_on, is_cleanmode_on
+from Afk-Robot.helpers import get_readable_time, put_cleanmode, settings_markup, RANDOM, HELP_TEXT
 
 
 @app.on_message(filters.command(["start", "settings"]) & filters.group & ~filters.edited)
