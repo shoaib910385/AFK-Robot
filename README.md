@@ -1,9 +1,7 @@
-
-
-<p align="center"> ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-<p align="center">
+<h1 align="center"><b>✨ ᴀғᴋ-ʀᴏʙᴏᴛ 🥀</b></h1>
+<h1 align="center">
 <img src="https://te.legra.ph/file/55d0dc4662aca5fb688d2.jpg">
-</p>
+</h1>
 
 
 <h3 align="center">
