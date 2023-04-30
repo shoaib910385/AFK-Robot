@@ -39,7 +39,7 @@ async def on_start(_, message: Message):
         ]
     )
     image = random.choice(RANDOM)
-    send = await message.reply_photo(image, caption=f"Hᴇʟʟᴏ Sɪʀ/Mɪss, \n\nI Aᴍ {botname}.\n\n⪼ Iғ Yᴏᴜ Wᴀɴᴛ Tᴏ Kɴᴏᴡ Mᴏʀᴇ Aʙᴏᴜᴛ Mᴇ Cʟɪᴄᴋ > /help.\n\nMʏ Oᴡɴᴇʀ Is ~ [Vɪʀ](https://t.me/ITZVIR99).\nPᴀʀᴛ Oғ ~ [Rᴏᴄᴋs Oғғɪᴄɪᴀʟ](https://t.me/ROCKS_OFFICIAL).\n\nI Aᴍ Aᴄᴛɪᴠᴇ Sɪɴᴄᴇ : ` {Uptime} `.", reply_markup=upl)
+    send = await message.reply_photo(image, caption=f"Hᴇʟʟᴏ Sɪʀ/Mɪss, \n\nI Aᴍ {botname}.\n\n⪼ Iғ Yᴏᴜ Wᴀɴᴛ Tᴏ Kɴᴏᴡ Mᴏʀᴇ Aʙᴏᴜᴛ Mᴇ Cʟɪᴄᴋ > /help.\n\nMʏ Oᴡɴᴇʀ Is ~ [𓆩➤⃝✖‿✖•Ajͥeeͣtͫ](https://t.me/PAPA_BOL_SAKTEHO).\nPᴀʀᴛ Oғ ~ [ᴀᴊᴇᴇᴛ ʙᴏᴛ](https://t.me/fuck_number).\n\nI Aᴍ Aᴄᴛɪᴠᴇ Sɪɴᴄᴇ : ` {Uptime} `.", reply_markup=upl)
     await put_cleanmode(message.chat.id, send.message_id)
     
 
@@ -58,7 +58,7 @@ async def on_help(_, message: Message):
     send = await message.reply_text("Contact me in PM for help.", reply_markup=upl)
     await put_cleanmode(message.chat.id, send.message_id)
 
-@app.on_message(filters.command(["start"]) & filters.private & ~filters.edited)
+@app.on_message(filters.command(["start", "ajeet"]) & filters.private & ~filters.edited)
 async def on_private_start(_, message: Message):
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
@@ -78,7 +78,7 @@ async def on_private_start(_, message: Message):
             ]
         )
         image = random.choice(RANDOM)
-        await message.reply_photo(image, caption=f"Hᴇʟʟᴏ Sɪʀ/Mɪss, \n\nI Aᴍ {botname}.\n\n⪼ **Iғ Yᴏᴜ Wᴀɴᴛ Tᴏ Kɴᴏᴡ Mᴏʀᴇ Aʙᴏᴜᴛ Mᴇ Cʟɪᴄᴋ > /help.**\n\nMʏ Oᴡɴᴇʀ Is ~ [Vɪʀ](https://t.me/ITZVIR99).\nPᴀʀᴛ Oғ ~ [Rᴏᴄᴋs Oғғɪᴄɪᴀʟ](https://t.me/ROCKS_OFFICIAL).\n\nI Aᴍ Aᴄᴛɪᴠᴇ Sɪɴᴄᴇ : ` {Uptime} `.", reply_markup=upl)
+        await message.reply_photo(image, caption=f"Hᴇʟʟᴏ Sɪʀ/Mɪss, \n\nI Aᴍ {botname}.\n\n⪼ **Iғ Yᴏᴜ Wᴀɴᴛ Tᴏ Kɴᴏᴡ Mᴏʀᴇ Aʙᴏᴜᴛ Mᴇ Cʟɪᴄᴋ > /help.**\n\nMʏ Oᴡɴᴇʀ Is ~ [𓆩➤⃝✖‿✖•Ajͥeeͣtͫ](https://t.me/PAPA_BOL_SAKTEHO).\nPᴀʀᴛ Oғ ~ [ᴀᴊᴇᴇᴛ ʙᴏᴛꜱ](https://t.me/fuck_number).\n\nI Aᴍ Aᴄᴛɪᴠᴇ Sɪɴᴄᴇ : ` {Uptime} `.", reply_markup=upl)
 
 @app.on_message(filters.command(["help"]) & filters.private & ~filters.edited)
 async def on_private_help(_, message: Message):
