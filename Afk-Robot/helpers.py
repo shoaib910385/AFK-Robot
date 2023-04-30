@@ -120,7 +120,7 @@ HELP_TEXT = f"""ㅤ[ㅤㅤㅤㅤㅤ ](https://telegra.ph/file/661626d941bc44a97e
 
 /settings - [ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀɴɢɪɴɢ sᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs ᴏғ Aғᴋ Bᴏᴛ ( Oɴʟʏ Usᴇ Iɴ Gʀᴏᴜᴘs) ]
 
-🖇★ Rᴇɢᴀʀᴅs ~ [TʜᴇAFKʀᴏʙᴏᴛ](https://t.me/TheAfkRobot) 🔥. 
+🖇★ Rᴇɢᴀʀᴅs ~ [ᴀʟʟ ʙᴏᴛꜱ](https://t.me/fuck_number) 🔥. 
 ㅤ
 """
             
